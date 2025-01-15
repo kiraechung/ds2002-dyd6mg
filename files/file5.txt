@@ -1,0 +1,88 @@
+    1  pwd
+    2  ls
+    3  ls -al
+    4  cd
+    5  ls
+    6  cd~
+    7  cd ~
+    8  cd -
+    9  cd-
+   10  cd -
+   11  ls
+   12  cd /workspaces/ds2002-dyd6mg
+   13  cd ..
+   14  cd .
+   15  cd -
+   16  /ds2002-dyd6mg
+   17  cd /ds2002-dyd6mg
+   18  cd ds2002-dyd6mg
+   19  cd
+   20  ls
+   21  cd ~
+   22  pwd
+   23  -al
+   24  ls -al
+   25  cd /workspaces/ds2002-dyd6mg
+   26  touch file1.txt
+   27  ls -al
+   28  touch file3.txt
+   29  touch file2.txt
+   30  ls -al
+   31  echo "a man a plan a canal panama"
+   32  echo "a man a plan a canal panama">file1.txt
+   33  ls -al
+   34  cat file1.txt
+   35  echo "a man a plan a canal panama">file2.txt
+   36  echo "a man a plan a canal panama">file3.txt
+   37  ls -al
+   38  echo "this should be a second line" >> file2.txt
+   39  cat file2.txt
+   40  clear
+   41  cat /dev/null >file3.txt
+   42  ls -al
+   43  mkdir files
+   44  ls -al
+   45  mv file1.txt files
+   46  ls -al
+   47  cd files
+   48  ls -al
+   49  cd-
+   50  cd -
+   51  ls -al files
+   52  ls -al
+   53  touch file4.txt
+   54  touch file5.txt
+   55  cp file2.txt file6.txt
+   56  cp file3.txt file7.txt
+   57  files
+   58  mv file*.txt files
+   59  ls -al
+   60  cd files
+   61  ls -al
+   62  cd -
+   63  rm files/file7.txt
+   64  ls -al files
+   65  ls -al
+   66  clear
+   67  top
+   68  ps
+   69  ps aux
+   70  ls -al
+   71  clear
+   72  cd files
+   73  ps aix
+   74  ps aux
+   75  ps aux > file6.txt
+   76  ls -al
+   77  cat file6.txt
+   78  cd
+   79  cd workspaces/ds2002-dyd6mg/files
+   80  /workspaces/ds2002-dyd6mg/files
+   81  cd /workspaces/ds2002-dyd6mg/files
+   82  head -n 3 file6.txt
+   83  tail -n 2 files6.txt
+   84  tail -n 2 file6.txt
+   85  clear
+   86  history
+   87  ps aux
+   88  history>file5.txt

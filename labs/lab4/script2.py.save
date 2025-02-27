@@ -29,7 +29,7 @@ path = os.path.join(os.getcwd(), file) # Saves to current directory
 download_file(image_url, path)
 
 #Upload file to bucket in S3
-
+s3 ls s3://ds2002-dyd6mg/
 import boto3
 s3 = boto3.client('s3', region_name="us-east-1")
 
@@ -39,9 +39,13 @@ resp = s3.put_object(
     Key = file,
     ContentType='image/gif'
 )
+#response = s3.generate_presigned_url(
+#    'get_object',
+#    Params={'Bucket': sys.argv[2], 'Key': file},
+#    ExpiresIn=sys.argv[3]
+#    )
 
-
-
+#print(response)
 import logging
 from botocore.exceptions import ClientError
 
